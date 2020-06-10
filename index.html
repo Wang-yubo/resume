@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[简历]王雨波-前端开发工程师/成都</title>
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+            <style>
+                @media (min-width: 750px) {
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+                    input:checked+.slider {
+                        background-color: #1abc9c;
+                    }
+                    input:focus+.slider {
+                        box-shadow: 0 0 1px #1abc9c;
+                    }
+                    input:checked+.slider:before {
+                        -webkit-transform: translateX(26px);
+                        -ms-transform: translateX(26px);
+                        transform: translateX(26px);
+                    }
+                    .slider.round {
+                        border-radius: 34px;
+                    }
+                    .slider.round:before {
+                        border-radius: 50%;
+                    }
+                }
+            </style>
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <img class="avatar" src="assets/images/avatar.jpg">
+                </section>
+
+                <h1 class="name">王雨波</h1>
+                <h4 class="info-job">前端开发工程师 / 成都</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>王雨波 / 男 / 23岁</span>
+                    </li>
+
+                    <li>
+                        <label>计算机水平</label>
+                        <span>web前端开发工程师</span>
+                    </li>
+
+                    <li>
+                        <label>学历</label>
+                        <span>全日制本科</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:18080582175" target="_blank">180-8058-2175</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="wyb18080582175@163.com" target="_blank">wyb18080582175@163.com</a>
+                    </li>
+                    <li>
+                        <label>个人博客</label>
+                        <a href="http://www.wyb.plus/" target="_blank">http://www.wyb.plus/</a>
+                    </li>
+                    <li>
+                        <label>Github</label>
+                        <a href="https://github.com/Wang-yubo" target="_blank">https://github.com/Wang-yubo</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>HTML</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>CSS</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>JavaScript</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Vue</label>
+                        <progress value="75" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Node.js</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>webpack</label>
+                        <progress value="40" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+            <!-- 个人简介 -->
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-heartbeat" aria-hidden="true"></i>个人简介</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>喜欢的技术</label>
+                        <span>对Vue情有独钟</span>
+                    </li>
+
+                    <li>
+                        <label>兴趣爱好</label>
+                        <span>喜欢总结学过的知识</span>
+                    </li>
+
+                    <li>
+                        <label>性格特征</label>
+                        <span>喜欢交流技术,也喜欢帮助别人解决问题</span>
+                    </li>
+                    <li>
+                        <label>与人相处</label>
+                        <span>能够与团队成员和谐共处</span>
+                    </li>
+                    <li>
+                        <label>学习态度</label>
+                        <span>相互学习才能更好的进步</span>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+
+        <section class="main">
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>四川工商学院 - 电子商务专业（本科）</span>
+                            <time>2016.9-2020.6</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>20/100</mark>，在校期间认真学习过HTML，CSS，网页设计，JavaScript以及数据库等专业课程，各科成绩均排名全班前十，其中网页设计排名全班前三。</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>潭州教育</span>
+                            <time>2019.7-2020.7</time>
+                        </h3>
+                        <p>在大三下学期的时候，自我感觉从学校学到的知识不够全面和专业，于是通过潭州教育全面系统地学习前端知识。截至目前，已经系统地学习过JS，Vue，React，Node.js以及HTML5的其他技能</p>
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]3D图表</span>
+                            <span class="link">
+                                <a href="http://echarts.wyb.plus/" target="_blank">线上展示</a>
+                            </span>
+                            <time>2020.3-2020.3</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Vue+Echarts</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> [目标]通过Echarts配合Vue实现多种类型图表的展示
+                                <br/>
+
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> [效果]实现了包括3D城市，3D地球以及3D音频图等11种图表的展示，并且上传到自己的服务器，能够通过二级域名访问。</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目2]后台管理系统</span>
+                            <span class="link">
+                                <a href="http://account-books.wyb.plus/" target="_blank">线上展示</a>
+                            </span>
+                            <time>2020.4-2020.4</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Vue+Node.js+MongoDB</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> [目标]实现注册登录以及验证，实现数据的增删改查，实现不同权限的管理
+                                <br/>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> [效果]结合ElementUI实现了页面的栅格布局，通过mongoose建立了数据库，并且自己完成了增删改查的接口。通过jwt包，完成了登录注册的身份验证。最后详细记录了该项目前后端的实现过程，以及自己打包上线，并且能够通过自己的服务器和二级域名访问。
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目3]个人博客</span>
+                            <span class="link">
+                                <a href="http://blog.wyb.plus/#/" target="_blank">线上展示</a>
+                            </span>
+                            <time>2020.5-2020.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Vue+Node.js+MongoDB</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> [目标]实现博客所有前端页面以及完成后台接口设计和数据库存储
+                                <br/>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> [效果]项目开发完成，打包上线后页面展示没有问题。通过axios调用后台接口需要在vue.config.js设置proxy代理，但是通过vue打包后，proxy代理会失效，造成接口调用失败。目前正在找解决办法。
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目4]博客后台管理系统</span>
+                            <span class="link">
+                                <a href="http://blogadmin.wyb.plus/#/admin" target="_blank">线上展示</a>
+                            </span>
+                            <time>2020.6-2020.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Vue+Node.js+MongoDB</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> [目标]实现博客的文章管理，用户管理，留言管理，日记管理和友联管理
+                                <br/>
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> [效果]已实现文章管理，用户管理和留言管理，其他两个目标暂未实现，上线后也是由于vue打包的问题，暂时调用不了接口。
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
+                <hr/>
+                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i><span><mark>[自我评价]</mark></span> 喜欢独立思考和擅长自己解决问题，前后端结合的项目打包上线都是自己摸索完成的，目前一台个人服务器中部署了近20个项目和demo，同时也帮助不少同学帮他们完成项目的部署。
+                </li>
+                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i><span><mark>[自我评价]</mark></span> 喜欢写总结和笔记，目前所有学过的知识以及写项目遇到的坑都做了详细的笔记，发表在了个人博客中。目前累计发表博客160余篇，累计字数超50万字以及34篇思维导图。
+                </li>
+                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i><span><mark>[自我评价]</mark></span> 喜欢经营博客，目前个人主要博客www.wyb.plus上线3个月以来，据不完全统计，已有上万次浏览量，3000访客和2700IP。博客已经做了百度收录，下一步计划做初级SEO。已经申请到了TrustAsia DV SSL CA - G5证书，下一步做全站HTTPS。
+                </li>
+                <li> <i class="fa fa-angle-double-right" aria-hidden="true"></i><span><mark>[期望计划]</mark></span> 目前正在整理ES6的一些知识，还剩下一点，下一步准备整理Vue的一些底层原理，算法和数据结构。
+                </li>
+                <li> <i class="fa fa-angle-double-right" aria-hidden="true"></i><span><mark>[期望计划]</mark></span> 下半年准备中级软考考试，同时准备学习小程序和uni-app。
+                </li>
+
+            </section>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <p>©2020 王雨波.文档最后更新时间为
+            <time>2020年06月10日</time>.</p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://gitee.com/itsay/resume" target="_blank">源代码</a>
+            </li>
+            <li>
+                <a href="http://www.wyb.plus/" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
